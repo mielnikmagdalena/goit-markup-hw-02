@@ -54,6 +54,9 @@ body {
 .text-portfolio {
     color: var(--primary-color);
 }
+.active {
+    color: var(--primary-color);
+}
 
 .contacts a {
     text-decoration: none;
