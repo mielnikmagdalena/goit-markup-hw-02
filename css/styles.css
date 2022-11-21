@@ -34,6 +34,9 @@ body {
     top: 1628px;
     background-color: var(--verydarkgrey);
 }
+.footer-wrapper address {
+    font-style: normal;
+}
 
 .nav-list {
     list-style: none;
@@ -51,9 +54,7 @@ body {
 .nav-list a:focus {
     color: var(--primary-color);
 }
-.text-portfolio {
-    color: var(--primary-color);
-}
+
 .active {
     color: var(--primary-color);
 }
