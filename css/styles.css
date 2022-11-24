@@ -28,17 +28,18 @@ body {
 .studio-white {
     color: var(--white);
 }
+.footer-wrapper {
+    font-style: normal;
+    background-color: var(--verydarkgrey);
+}
 
 .footer-wrapper .company-info {
-    width: 1600px;
-    height: 252px;
-    top: 1628px;
     background-color: var(--verydarkgrey);
+    color: var(--white);
 }
 .company-info {
     font-style: normal;
 }
-
 .nav-list {
     list-style: none;
 }
