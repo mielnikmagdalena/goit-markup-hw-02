@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #2196f3;
+    --dodgerblue: #2196f3;
     --black: #000000;
     --white: #ffffff;
     --darkgrey: #212121;
@@ -9,7 +9,7 @@
 }
 body {
     font-family: 'Roboto', sans-serif;
-    color: #212121;
+    color: var(--darkgrey);
 }
 
 .logo {
@@ -19,7 +19,7 @@ body {
     line-height: 1.19;
     /* identical to box height */
     letter-spacing: 0.03em;
-    color: var(--primary-color);
+    color: var(--dodgerblue);
     text-decoration: none;
 }
 .studio-black {
@@ -29,20 +29,20 @@ body {
     color: var(--white);
 }
 
-.footer-wrapper {
+.footer-wrapper .company-info {
     width: 1600px;
     height: 252px;
     top: 1628px;
     background-color: var(--verydarkgrey);
 }
-.footer-wrapper address {
+.company-info {
     font-style: normal;
 }
 
 .nav-list {
     list-style: none;
 }
-.nav-list a {
+.nav-list .nav-link {
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -53,11 +53,11 @@ body {
 
 .nav-list a:hover,
 .nav-list a:focus {
-    color: var(--primary-color);
+    color: var(--dodgerblue);
 }
 
-.active {
-    color: var(--primary-color);
+.nav-link {
+    color: var(--dodgerblue);
 }
 
 .contacts a {
@@ -71,7 +71,7 @@ body {
 
 .contacts a:hover,
 .contacts a:focus {
-    color: var(--primary-color);
+    color: var(--dodgerblue);
 }
 .button-list {
     list-style: none;
@@ -91,7 +91,7 @@ body {
 .button-list button:hover,
 .button-list button:focus {
     color: var(--white);
-    background-color: var(--primary-color);
+    background-color: var(--dodgerblue);
 }
 
 .order {
@@ -99,7 +99,7 @@ body {
     height: 50px;
     left: 700px;
     top: 430px;
-    background-color: var(--primary-color);
+    background-color: var(--dodgerblue);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     outline: none;
@@ -141,7 +141,7 @@ body {
 }
 .second-contacts a:hover,
 .second-contacts a:focus {
-    color: var(--primary-color);
+    color: var(--dodgerblue);
 }
 .project-list {
     list-style: none;
